@@ -889,12 +889,13 @@ img {
 }
 .page-main__two{
   margin-top: 120px;
-  background-color: brown;
+  /* background-color: brown; */
 }
 .page-main__two{
   max-width: 1220px;
   min-width: 320px;
   margin: 0 auto;
+  margin-top: 120px;
 }
 .all-main__two{
   display: flex;
@@ -911,9 +912,15 @@ img {
   min-width: 270px;
   max-height: 289px;
   min-height: 289px;
-  background-color: blue;
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 37px;
+}
+.card-product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
 }
 .card-product__fists{
   width: 270px;
@@ -922,14 +929,86 @@ img {
 .card-product img{
   width: 175px;
   height: 169px;
+  margin-top: 20px;
+}
+.card-product p{
+  margin-top: 10px;
+  width: 183px;
+  height: 28px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27px;
+  color: #303032;
+  text-align: center;
+}
+.card-product span{
+  margin-top: -6px;
+  width: 64px;
+  height: 39px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #303032;
+}
+.card-product__fists{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+}
+.card-product__fists img{
+  width: 90px;
+  height: 4px;
+  margin-top: -13px;
+}
+.card-product__fists h2{
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
+  color: #303032;
+  width: 173px;
+  height: 43px;
 }
 /* left-block-end */
 
 /* right-block-start */
 .main-right__one{
-  width: 570px;
-  /* height: 614px; */
-  text-align: center;
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 570px;
+  min-height: 614px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+}
+.main-right__one img{
+  margin-top: 20px;
+}
+.main-right__one p{
+  width: 318px;
+  height: 28px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #303032;
+  margin-top: 30px;
+}
+.main-right__one span{
+  width: 64px;
+  height: 39px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #303032;
 }
 /* right-block-end */
