@@ -889,7 +889,6 @@ img {
 }
 .page-main__two{
   margin-top: 120px;
-  /* background-color: brown; */
 }
 .page-main__two{
   max-width: 1220px;
@@ -905,7 +904,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   max-width: 600px;
-  /* justify-content: space-around; */
 }
 .card-product__fists, .card-product{
   max-width: 288px;
@@ -1081,7 +1079,6 @@ img {
   position: relative;
 }
 .content-g {
-  /* width: 1280px/1366px * 100%; */
   max-width: 1180px;
   margin: 0 auto;
 }
@@ -1108,14 +1105,17 @@ img {
     width: 8px;
     margin: 6px;
     cursor: pointer;
-    background-color: #ddd;
+    background-color: #fff;
+    border: 1px solid #B3B3B3;;
     opacity: .5;
     border-radius: 10px;
     transition: all .4s ease;
+    vertical-align: top;
 }
 .bar:hover{
     opacity: 1;
     transform: scale(1.1);
+    background-color: #B3B3B3;
 }
 input[name="r"] {
     position: absolute;
