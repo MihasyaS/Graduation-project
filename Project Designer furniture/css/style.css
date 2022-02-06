@@ -1073,7 +1073,7 @@ img {
   color: #444348;
 }
 
-
+/* слайдер начало */
 .section-g {
   height: 600px;
   position: relative;
@@ -1146,4 +1146,96 @@ input[name="r"] {
 
 #r4:checked ~ .s1 {
     margin-left: -75%;
+}
+/* слайдер конец */
+/* .section-four::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 200%;
+  top: 0;
+  left: 65.5%;
+  background-color: #fceae8;
+  z-index: -1;
+} */
+.last-chance h2{
+  margin: 0 auto;
+  margin-top: 73px;
+}
+.upholstered-furniture{
+  margin-top: 37px;
+}
+.upholstered-furniture a{
+  margin-right: 48px;
+  text-decoration: none;
+  color: #000000;
+}
+.upholstered-furniture a:hover{
+  text-decoration: underline;
+}
+.text-img{
+  padding-left: 27px;
+  padding-top: 27px;
+}
+.product-card h3,p{
+  margin: 0 auto;
+}
+.card-produts__four{
+  display: flex;
+  justify-content: space-between;
+}
+.span-one__two{
+  display: flex;
+}
+.one-span{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #303032;
+  margin-right: 11px;
+}
+.two-span{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #979798;
+  margin-left: -4px;
+}
+.product-card{
+  box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+  border-top: 1px;
+  margin-top: 25px;
+  max-width: 209px;
+  max-height: 400px;
+  background: #FFFFFF;
+}
+.product-card  button{
+    cursor: pointer;
+    display: none;
+    padding: 18px 66px;
+    background-color: #303032;
+    color: #fff;
+    border: none;
+    width: 100%;
+    max-width: 342px;
+}
+.product-card:hover button {
+    display: block;
+    cursor: pointer;
+    padding: 18px 66px;
+    background-color: #303032;
+    color: #fff;
+    border: none;
+    width: 100%;
+    max-width: 400;
+}
+.img-product img{
+  position: relative;
+  width: 100%;
+  height: 252px;
 }
