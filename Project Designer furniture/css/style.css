@@ -41,6 +41,7 @@ body {
   font-family: "Open Sans", "Arial", sans-serif;
   background-color: #f9fdff;
   margin: 0;
+  
 }
 
 a {
@@ -1148,19 +1149,20 @@ input[name="r"] {
     margin-left: -75%;
 }
 /* слайдер конец */
-/* .section-four::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 200%;
-  top: 0;
-  left: 65.5%;
+
+/* .section-four{
   background-color: #fceae8;
-  z-index: -1;
 } */
 .last-chance h2{
   margin: 0 auto;
   margin-top: 73px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
+  color: #303032;
 }
 .upholstered-furniture{
   margin-top: 37px;
@@ -1168,10 +1170,24 @@ input[name="r"] {
 .upholstered-furniture a{
   margin-right: 48px;
   text-decoration: none;
-  color: #000000;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center; 
+  color: rgba(0, 0, 0, 0.4);
 }
 .upholstered-furniture a:hover{
   text-decoration: underline;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
 }
 .text-img{
   padding-left: 27px;
@@ -1210,9 +1226,12 @@ input[name="r"] {
   box-shadow: 0 0 5px rgb(0 0 0 / 25%);
   border-top: 1px;
   margin-top: 25px;
-  max-width: 209px;
-  max-height: 400px;
+  min-width: 209px;
+  max-height: 342px;
   background: #FFFFFF;
+}
+.product-card:hover{
+  border-top: 5px solid #303032;
 }
 .product-card  button{
     cursor: pointer;
@@ -1234,8 +1253,11 @@ input[name="r"] {
     width: 100%;
     max-width: 400;
 }
+.img-product{
+  max-height: 252px;
+}
 .img-product img{
   position: relative;
   width: 100%;
   height: 252px;
-}
+} 
