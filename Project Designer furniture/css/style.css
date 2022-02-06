@@ -1294,6 +1294,84 @@ input[name="r"] {
   text-transform: uppercase;
   color: #FFFFFF;
 } 
-.footer{
+.end{
+  background-color: #fff;
   margin-top: 111px;
+}
+.footer{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.logo-services{
+  display: flex;
+  justify-content: space-between;
+}
+.services span{
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303032;
+} 
+.number-mail{
+  display: flex;
+  margin-top: 31px;
+}
+.number{
+  display: flex;
+  align-items: flex-end
+}
+.mail{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 51px;
+}
+.number a{
+  text-decoration:none ;
+  color: #303032;
+}
+.mail a{
+  text-decoration:none ;
+  color: #303032;
+}
+.line{
+  margin-top: 15px;
+}
+.line img{
+  width: 100%;
+}
+.last-text{
+  text-align: end;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.2;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.text-span{
+  margin-right: 60px;
+}
+.number a{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #303032;
+}
+.mail a{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #303032;
 }
