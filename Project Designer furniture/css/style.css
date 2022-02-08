@@ -1251,6 +1251,7 @@ input[name="r"] {
   min-width: 209px;
   max-height: 334px;
   background: #FFFFFF;
+  border-top: 5px solid transparent;
 }
 .product-card:hover{
   border-top: 5px solid #303032;
