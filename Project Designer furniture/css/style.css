@@ -975,6 +975,9 @@ img {
   width: 173px;
   height: 43px;
 }
+.card-product:hover{
+  background: #FAECE9;
+}
 /* left-block-end */
 
 /* right-block-start */
@@ -1264,6 +1267,9 @@ img {
     width: 100%;
     max-width: 400;
 }
+.product-card button:hover{
+  opacity: 0.9;
+}
 .img-product{
   max-height: 252px;
 }
@@ -1305,6 +1311,9 @@ img {
   text-align: center;
   letter-spacing: 0.05em;
   color: #303032;
+}
+.services span:hover{
+  opacity: 0.5;
 } 
 .number-mail{
   display: flex;
@@ -1312,20 +1321,35 @@ img {
 }
 .number{
   display: flex;
-  align-items: flex-end
+  align-items: center;
 }
 .mail{
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-left: 51px;
 }
 .number a{
   text-decoration:none ;
   color: #303032;
 }
+.number a:hover{
+  opacity: 0.5;
+}
 .mail a{
   text-decoration:none ;
   color: #303032;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.mail a:hover{
+  opacity: 0.5;
+}
+.mail img{
+  width: 19px;
+  height: 19px;
 }
 .line{
   margin-top: 15px;
@@ -1349,14 +1373,6 @@ img {
   margin-right: 60px;
 }
 .number a{
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #303032;
-}
-.mail a{
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
