@@ -1,0 +1,109 @@
+@media (max-width: 1025px){
+    .all-main__two{
+        justify-content: center;
+    }
+    .four::after{
+        display: none;
+    }
+    .main-right-two{
+        margin-right: 30px;
+    }
+    .card-produts__four{
+        justify-content: space-around !important;
+    }
+    .last-chance, .upholstered-furniture{
+        text-align: center;
+    }
+}
+@media (max-width: 1169px){
+    .four::after{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .logo-services{
+        flex-direction: column;
+    }
+    .services{
+        margin-top: 10px;
+        display: flex;
+
+    }
+}
+@media (max-width: 500px){
+    .all-main__two{
+        margin-top: -63px !important;
+        justify-content: center;
+    }
+    .main-right__one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+        padding: 22px 25px 29px 40px !important;
+    }
+    .main-right__one img{
+        width: 175px;
+        height: 169px;
+        margin-top: 20px;
+    }
+    .main-right__one p{
+        margin-top: 10px;
+        width: 183px;
+        height: 28px;
+        font-family: "Open Sans";
+        font-weight: 400;
+         font-size: 19px;
+        line-height: 27px;
+         color: #303032;
+        text-align: center;
+    }
+    .main-right__one span{
+        margin-top: 42px;
+        width: 64px;
+        height: 39px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+         color: #303032;
+    }
+    .slieder-new{
+        display: none;
+    }
+    .main-left__two{
+        justify-content: center;
+    }
+    .main-right-two{
+        display: flex;
+        justify-content: center;
+    }
+    .card-produts__four{
+        flex-direction: column;
+        align-items: center;
+    }
+    .upholstered-furniture{
+        margin-left: 45px;
+    }
+    .services{
+        flex-wrap: wrap;
+    }
+    .number-mail{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 367px){
+    .upholstered-furniture a{
+        margin-right: 30px !important;
+    }
+}
+@media (max-width: 358px){
+    .number-mail{
+        flex-direction: column;
+    }
+    .mail{
+        margin-left: 0px !important;
+    }
+}
