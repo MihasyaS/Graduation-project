@@ -1332,7 +1332,7 @@ img {
   text-decoration:none ;
   color: #303032;
 }
-.number a:hover{
+.number:hover{
   opacity: 0.5;
 }
 .mail a{
@@ -1344,7 +1344,7 @@ img {
   font-size: 16px;
   line-height: 19px;
 }
-.mail a:hover{
+.mail:hover{
   opacity: 0.5;
 }
 .mail img{
