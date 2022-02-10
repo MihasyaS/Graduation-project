@@ -34,6 +34,7 @@
     .all-main__two{
         margin-top: -63px !important;
         justify-content: center;
+        margin-left: 30px ;
     }
     .main-right__one{
         display: flex;
@@ -92,6 +93,10 @@
     }
     .number-mail{
         flex-wrap: wrap;
+    }
+    .product-card{
+        margin-bottom: 40px;
+        border-top: 5px solid #303032;
     }
 }
 @media (max-width: 367px){
